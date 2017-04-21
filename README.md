@@ -1,5 +1,7 @@
 # AutomateFeedback
 
+![](https://github.com/vidhan13j07/AutomateFeedback/blob/master/images/screenshots.gif)
+
 ## Requirements
 
 + [Python](https://www.python.org/download/releases/2.7/)
