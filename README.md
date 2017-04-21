@@ -12,7 +12,7 @@
 
 ## Installation Instructions
 
-+ Download zip file or clone the repository `$ git clone https://github.com/vidhan13j07/AutomateFeedback.git`
++ Download zip file or clone the repository `$ git clone https://github.com/vidhan13j07/AutomateFeedback.git && cd AutomateFeedback`
 
 + Create virtual environment `$ virtualenv -p /usr/bin/python2.7 env`
 
