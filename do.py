@@ -20,6 +20,13 @@ def func(username, password):
                 for index in range(1, len(select.options)):
                     select = Select(driver.find_element_by_xpath('//*[@title="Please Select Course"]'))
                     select.select_by_index(index)
+                    try:
+                        driver.switch_to.alert.accept()
+                        continue
+                    except Exception as e:
+                        print(e)
+                        pass
+
                     selectTeach = Select(driver.find_element_by_xpath('//*[@title="Please Select Teacher"]'))
                     for indexes in xrange(1, len(selectTeach.options)):
                         select = Select(driver.find_element_by_xpath('//*[@title="Please Select Course"]'))
